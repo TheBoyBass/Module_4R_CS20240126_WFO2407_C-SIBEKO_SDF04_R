@@ -10,6 +10,8 @@ body {
   }
   
   .counter {
+    display: flex;
+    justify-content: space-around;
     background-color: #e5e5f7;
     opacity: 0.8;
     background-image: repeating-linear-gradient(45deg, #f74545 25%, transparent 25%, transparent 75%, #f74545 75%, #f74545), repeating-linear-gradient(45deg, #f74545 25%, #e5e5f7 25%, #e5e5f7 75%, #f74545 75%, #f74545);
@@ -18,7 +20,7 @@ body {
     padding: 80px;
     border-radius: 10px;
     width: 80%;
-    position: relative; 
+    position: absolute ;
   }
   
   .pastry {
@@ -26,7 +28,7 @@ body {
     padding: 20px;
     border-radius: 50%;
     font-size: 18px;
-    position: absolute; 
+    position: static; 
   }
   
   .pastry img {
